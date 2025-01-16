@@ -1,3 +1,5 @@
+This project was forked from https://github.com/monuminu/AOAI_Samples
+
 Title: Realtime Assistant
 Tags: [multimodal, audio]
 
@@ -36,10 +38,6 @@ The following files are also included in the repository:
 - [Azure OpenAI account](https://azure.microsoft.com/en-us/services/cognitive-services/openai/). You will need to create a resource and obtain your OpenAI Endpoint, API Key, deploy text-embedding-ada-002 and gpt-35-turbo-16k model.
 - Python 3.11 or higher installed on your local machine.
 - (Optional) [Azure Container Registry](https://docs.microsoft.com/en-us/azure/container-registry/) to store the Docker image. This step is optional, if you want to deploy the application to Azure Container Apps for example.
-
-```bash
-pip install "https://github.com/Azure-Samples/aoai-realtime-audio-sdk/releases/download/py%2Fv0.5.3/rtclient-0.5.3.tar.gz" 
-```
 
 ### Setup the environment variables
 
@@ -118,4 +116,3 @@ Open the terminal and navigate to the src folder of the repository. Then run the
     ```
 
 
-This project was forked from https://github.com/monuminu/AOAI_Samples
